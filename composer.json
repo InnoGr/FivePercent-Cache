@@ -1,0 +1,21 @@
+{
+    "name": "fivepercent/cache",
+    "description": "Cache system",
+    "keywords": [ "cache" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\Cache\\": "src/" }
+    }
+}
